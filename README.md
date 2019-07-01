@@ -12,13 +12,13 @@ The project was built using OpenJDK 11.0.3.
 
 ### Running
 
-The program can be built by compiling the Main class from a terminal:  
-```javac Main.java```
-then executing:  
-```java Main```
-
-or by simply running the provided bash script containing these commands froma terminal:  
-```./run.sh```
+Building the project can be accomplished by compiling the Main class.  From the root project directory in a terminal, type:  
+```javac Main.java```  
+then execute:  
+```java Main```  
+  
+Or you can execute the provided bash script containing these commands:  
+```./run.sh```  
 
 ### Authors
 
