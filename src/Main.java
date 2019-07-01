@@ -10,9 +10,9 @@ public class Main {
      * main method - entry point for program.
      */
     public static void main(String[] args) {
-        Receipt order1 = new Receipt("Input1.txt");
-        Receipt order2 = new Receipt("Input2.txt");
-        Receipt order3 = new Receipt("Input3.txt");
+        Receipt order1 = new Receipt("../resources/Input1.txt");
+        Receipt order2 = new Receipt("../resources/Input2.txt");
+        Receipt order3 = new Receipt("../resources/Input3.txt");
 
         order1.print();
         order2.print();
