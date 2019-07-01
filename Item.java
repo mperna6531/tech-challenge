@@ -1,11 +1,14 @@
 
 // Item.java
+
 import java.lang.Math;
 
 public class Item {
     private static final double SALES_TAX = 0.10;
     private static final double IMPORT_TAX = 0.05;
-    private static final String[] EXEMPTIONS = { "chocolate", "pills", "book" };
+    // list of words denoting tax exempt status
+    private static final String[] EXEMPTIONS = { "chocolate", "pills", "book", "chips", "medicine", "cough",
+            "headache" };
 
     private int _quantity;
     private String _description;

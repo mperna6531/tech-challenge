@@ -9,7 +9,6 @@ import java.io.FileNotFoundException;
 import java.util.Scanner;
 
 public class Receipt {
-
     private List<Item> _items;
 
     private Item parseLine(String line) {
