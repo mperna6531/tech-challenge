@@ -1,4 +1,3 @@
-
 /**
  * Main.java Simple Main class used as a driver to generate receipts from input
  * files
@@ -18,4 +17,5 @@ public class Main {
         order2.print();
         order3.print();
     }
+
 }

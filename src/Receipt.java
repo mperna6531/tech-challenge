@@ -8,10 +8,10 @@
 
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Scanner;
 
 import java.io.File;
 import java.io.FileNotFoundException;
-import java.util.Scanner;
 
 public class Receipt {
     private List<Item> _items;
