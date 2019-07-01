@@ -1,7 +1,14 @@
-// Main.java - simple driver class to generate a recceipt from
-// given input files of items.
 
+/**
+ * Main.java Simple Main class used as a driver to generate receipts from input
+ * files
+ * 
+ * @author Michael Perna
+ */
 public class Main {
+    /**
+     * main method - entry point for program.
+     */
     public static void main(String[] args) {
         Receipt order1 = new Receipt("Input1.txt");
         Receipt order2 = new Receipt("Input2.txt");

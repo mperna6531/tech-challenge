@@ -1,5 +1,9 @@
 
-// Item.java
+/**
+ * Item.java - container class to hold data for individual items.
+ * 
+ * @author Michael Perna
+ */
 
 import java.lang.Math;
 
@@ -16,6 +20,10 @@ public class Item {
     private boolean _imported;
     private boolean _taxExempt;
 
+    /**
+     * Constructor for item class. Takes 3 field values (quantity, desc. and price)
+     * as input and generates the rest.
+     */
     public Item(int quantity, String description, double price) {
         _description = description;
         _quantity = quantity;
@@ -41,6 +49,10 @@ public class Item {
         System.out.println(formatted);
     }
 
+    /**
+     * getTax method determines which taxes are applicable for a given item and
+     * calculates and returns the tax amount.
+     */
     public double getTax() {
         double baseRate = _taxExempt ? 0.0 : SALES_TAX;
         double taxRate = baseRate + (_imported ? IMPORT_TAX : 0.0);

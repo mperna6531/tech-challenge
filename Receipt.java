@@ -1,5 +1,10 @@
 
-// Receipt.java
+/**
+ * Receipt.java - class to hold information for an individual receipt.
+ * Maintains a List of Items internally.
+ * 
+ * @author Michael Perna
+ */
 
 import java.util.ArrayList;
 import java.util.List;
@@ -11,6 +16,11 @@ import java.util.Scanner;
 public class Receipt {
     private List<Item> _items;
 
+    /**
+     * parseLine takes a String (line of input file) as input, parses the quantity,
+     * description, and unitPrice of the product and uses these values to
+     * instantiate and return a new Item object.
+     */
     private Item parseLine(String line) {
         Scanner scanner = new Scanner(line);
 
@@ -23,6 +33,11 @@ public class Receipt {
         return new Item(quantity, description, price);
     }
 
+    /**
+     * Constructor for receipt class - takes a string file input, converts to a File
+     * obj and uses a Scanner obj to read the file line by line. Item objects
+     * generated from parseLine method are appended to an ArrayList of items field.
+     */
     public Receipt(String filePath) {
         _items = new ArrayList<Item>();
 
@@ -37,6 +52,9 @@ public class Receipt {
         }
     }
 
+    /**
+     * print method calculates and displays formatted data for the order.
+     */
     public void print() {
         double price = 0.0;
         double tax = 0.0;
