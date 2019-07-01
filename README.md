@@ -17,7 +17,7 @@ Building the project can be accomplished by compiling and running the Main class
 followed by:  
 ```java Main```  
   
-Or you can execute the provided bash script from the root directory:  
+Or you can execute the provided bash script from inside the *src* directory:  
 ```./run.sh```  
 
 ### Authors
