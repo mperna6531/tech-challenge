@@ -1,6 +1,7 @@
 # Liferay, Inc. Technical Challenge
 
 ## Description
+
 This is a simple receipt program written as part of a technical challenge for Liferay, Inc.
 
 The program takes a file input of items and generates the associated receipt.  All relevant sales and import taxes are calculated and displayed to the terminal.
