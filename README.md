@@ -12,8 +12,12 @@ The project was built using OpenJDK 11.0.3.
 
 ### Running
 
-Building the project can be accomplished by compiling and running the Main class.  Navigate to the *src* directory, then type:  
+Building the project can be accomplished by compiling and running the Main class.  From the root project directory in a terminal, navigate to the *src* directory:  
+```cd src```  
+
+then type:  
 ```javac Main.java```  
+
 followed by:  
 ```java Main```  
   
