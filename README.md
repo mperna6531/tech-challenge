@@ -6,7 +6,7 @@ This is a simple receipt program written as part of a technical challenge for Li
 The program takes a file input of items and generates the associated receipt.  All relevant sales and import taxes are calculated and displayed.
 The project was completed as per the requirements from Liferay, Inc.
 
-## Built With
+### Built With
 
 The project was built using OpenJDK 11.0.3.
 
